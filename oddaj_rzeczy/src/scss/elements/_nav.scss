@@ -1,0 +1,56 @@
+@import "./src/general/variables";
+a {
+  color: $color-text;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  &__login {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    &-buttons {
+      display: flex;
+    }
+    &-element {
+      cursor: pointer;
+      font-family: $font-OpenSans;
+      font-size: 0.875rem;
+      margin-right: 20px;
+      padding: 10px;
+      &:hover {
+        border: $color-accent solid 1px;
+      }
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+  &__menu {
+    &-main {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    &-element {
+      cursor: pointer;
+      display: flex;
+      font-family: $font-OpenSans;
+      font-size: $main-fontsize;
+      justify-content: center;
+      margin-right: 35px;
+      padding: 10px 20px;
+      &:hover {
+        border: solid 1px $color-text;
+      }
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+}
