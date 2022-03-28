@@ -1,11 +1,7 @@
-@import "./src/general/variables";
-a {
-  color: $color-text;
-  text-decoration: none;
-}
-li {
-  list-style: none;
-}
+@import "../settings/colors";
+@import "../settings/fonts";
+
+
 
 .navigation {
   display: flex;
@@ -19,7 +15,7 @@ li {
     }
     &-element {
       cursor: pointer;
-      font-family: $font-OpenSans;
+      font-family: $font-base;
       font-size: 0.875rem;
       margin-right: 20px;
       padding: 10px;
@@ -40,7 +36,7 @@ li {
     &-element {
       cursor: pointer;
       display: flex;
-      font-family: $font-OpenSans;
+      font-family: $font-base;
       font-size: $main-fontsize;
       justify-content: center;
       margin-right: 35px;

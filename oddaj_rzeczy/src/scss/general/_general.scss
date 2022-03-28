@@ -1,0 +1,15 @@
+@import "../settings/colors";
+@import "../settings/fonts";
+
+body {
+  font-family: $font-base;
+}
+
+a {
+  color: $color-text;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
