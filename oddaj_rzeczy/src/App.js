@@ -1,9 +1,13 @@
 import "./scss/main.scss";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/home/Home";
 
 export default function App() {
   return (
-    <div className="App">
-
-    </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
   );
 }
