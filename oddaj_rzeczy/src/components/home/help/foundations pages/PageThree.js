@@ -1,5 +1,3 @@
-import "../_pages.scss";
-
 export default function PageThree() {
     return (
         <>
