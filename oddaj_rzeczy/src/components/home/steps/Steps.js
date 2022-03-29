@@ -3,6 +3,7 @@ import icon1 from "../../../assets/Icon-1.svg";
 import icon2 from "../../../assets/Icon-2.svg";
 import icon3 from "../../../assets/Icon-3.svg";
 import icon4 from "../../../assets/Icon-4.svg";
+import {Link} from "react-router-dom";
 
 export default function Steps() {
     return (
@@ -40,7 +41,7 @@ export default function Steps() {
                 </div>
             </div>
             <div className="steps__button">
-                <a href="/" className="btn">oddaj<br/>rzeczy</a>
+                <Link to="/login" className="btn">oddaj<br/>rzeczy</Link>
             </div>
         </main>
     )

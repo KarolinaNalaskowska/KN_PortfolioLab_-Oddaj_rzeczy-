@@ -1,6 +1,7 @@
 import HomeHero from "../../../assets/Home-Hero-Image.jpg";
 import Deco from "../../../assets/Decoration.svg";
 import Nav from "./navigation/Nav";
+import {Link} from "react-router-dom";
 
 export default function Header() {
     return (
@@ -21,8 +22,8 @@ export default function Header() {
                             <img src={Deco} alt="Decoration" />
                         </div>
                         <div className="header__buttons">
-                            <a href="/" className="btn">Oddaj<br/>rzeczy</a>
-                            <a href="/" className="btn">Zorganizuj zbiórkę</a>
+                            <Link to="/login" className="btn">Oddaj<br/>rzeczy</Link>
+                            <Link to="/login" className="btn">Zorganizuj zbiórkę</Link>
                         </div>
                     </div>
                 </div>
