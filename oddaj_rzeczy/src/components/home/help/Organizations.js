@@ -1,4 +1,3 @@
-import "./_help.scss";
 import PageOne from "./organizations pages/PageOne";
 import PageTwo from "./organizations pages/PageTwo";
 import {useState} from "react";

@@ -1,4 +1,4 @@
-import Deco from "../../assets/Decoration.svg";
+import Deco from "../../../assets/Decoration.svg";
 import Foundations from "./Foundations";
 import Organizations from "./Organizations";
 import Local from "./Local";

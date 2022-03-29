@@ -1,4 +1,3 @@
-import "./_pages.scss";
 import PageOne from "./local pages/PageOne";
 import {useState} from "react";
 

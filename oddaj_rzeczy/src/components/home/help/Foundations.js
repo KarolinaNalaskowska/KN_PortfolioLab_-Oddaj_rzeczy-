@@ -1,4 +1,3 @@
-import "./_help.scss";
 import PageOne from "./foundations pages/PageOne";
 import PageTwo from "./foundations pages/PageTwo";
 import PageThree from "./foundations pages/PageThree";
