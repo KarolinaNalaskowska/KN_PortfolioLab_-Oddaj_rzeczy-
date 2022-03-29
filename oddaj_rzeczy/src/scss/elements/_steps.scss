@@ -1,0 +1,61 @@
+@import "../settings/colors";
+@import "../settings/fonts";
+
+.steps {
+  text-align: center;
+  &__header {
+    margin-bottom: 35px;
+  }
+  &__title {
+    &-h2 {
+      color: $color-text;
+      font-size: $headers-size;
+      font-weight: 400;
+      margin: 0 0 25px 0;
+    }
+    &-h3 {
+      color: $color-text;
+      display: flex;
+      font-size: $main-fontsize;
+      font-weight: 400;
+      justify-content: center;
+      margin: 0;
+      padding-bottom: 6px;
+      position: relative;
+      &:after {
+        border-bottom: solid 1px $color-border;
+        bottom: -4px;
+        content: "";
+        position: absolute;
+        width: 70px;
+      }
+    }
+  }
+  &__background {
+    background: $color-background;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1075px;
+    width: 100%;
+  }
+  &__step {
+    margin: 70px 0 80px 0;
+  }
+  &__icon {
+    margin-bottom: 10px;
+  }
+  &__text {
+    color: $color-text;
+    margin: 12px 0 0 0;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+}
