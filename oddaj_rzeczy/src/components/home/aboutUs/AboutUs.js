@@ -1,7 +1,6 @@
-import "./_aboutUs.scss";
-import Deco from "../../assets/Decoration.svg";
-import People from "../../assets/People.jpg";
-import Signature from "../../assets/Signature.svg";
+import Deco from "../../../assets/Decoration.svg";
+import People from "../../../assets/People.jpg";
+import Signature from "../../../assets/Signature.svg";
 
 export default function AboutUs() {
     return (
