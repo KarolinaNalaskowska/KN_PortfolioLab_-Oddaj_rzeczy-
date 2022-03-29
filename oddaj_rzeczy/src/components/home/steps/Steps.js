@@ -4,7 +4,7 @@ import icon2 from "../../../assets/Icon-2.svg";
 import icon3 from "../../../assets/Icon-3.svg";
 import icon4 from "../../../assets/Icon-4.svg";
 
-export default function FourSteps() {
+export default function Steps() {
     return (
         <main className="steps">
             <div className="steps__header">
