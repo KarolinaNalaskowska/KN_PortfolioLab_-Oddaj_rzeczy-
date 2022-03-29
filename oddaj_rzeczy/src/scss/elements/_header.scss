@@ -2,19 +2,63 @@
 @import "../settings/fonts";
 
 .header {
-  display: flex;
-  &__image {
-    left: -500px;
-    max-height: 960px;
+  &__container {
+    display: flex;
+    left: -480px;
     position: absolute;
   }
+  &__main {
+
+  }
+  &__title {
+    font-size: $headers-size;
+    margin: 210px 0 25px 0;
+    text-align: center;
+    &-h1 {
+      font-weight: 400;
+      text-decoration: none;
+    }
+  }&__deco {
+     margin-bottom: 65px;
+     text-align: center;
+   }
+  &__buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 270px;
+  }
+}
+.btn {
+  align-items: center;
+  border: solid 1px $color-text;
+  display: flex;
+  font-size: 2.25rem;
+  font-weight: 300;
+  height: 120px;
+  justify-content: center;
+  max-height: 120px;
+  margin-right: -45px;
+  max-width: 310px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+
+/*
   &__content {
-    left: 900px;
+    max-width: 675px;
     position: relative;
+    left: -50%;
+    width: 100%;
+    top: 44px;
   }
   &__title {
     color: $color-text;
-    font-size: 1.1875rem;
+    font-size: 2.1875rem;
     margin: 210px 0 25px 0;
     text-align: center;
     &-h1 {
@@ -50,4 +94,4 @@
   &:last-child {
     margin-right: 0;
   }
-}
+}*/
