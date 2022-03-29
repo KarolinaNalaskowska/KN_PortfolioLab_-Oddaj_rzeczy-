@@ -5,18 +5,26 @@ import Nav from "./navigation/Nav";
 export default function Header() {
     return (
         <header className="header">
-            <img src={HomeHero} alt="Some stuff in box" className="header__image"/>
-            <div className="header__content">
-                <Nav />
-                <div className="header__title">
-                    <h1 className="header__title-h1">Zacznij pomagać!<br/>Oddaj niechciane rzeczy w zaufane ręce</h1>
+            <div className="header__container">
+                <div className="header__image">
+                    <img src={HomeHero} alt="Some stuff in box" />
                 </div>
-                <div className="header__deco">
-                    <img src={Deco} alt="Decoration" />
-                </div>
-                <div className="header__buttons">
-                    <a href="/" className="btn">Oddaj<br/>rzeczy</a>
-                    <a href="/" className="btn">Zorganizuj zbiórkę</a>
+                <div className="header__content">
+                    <div className="header__navigation">
+                        <Nav />
+                    </div>
+                    <div className="header__main">
+                        <div className="header__title">
+                            <h1 className="header__title-h1">Zacznij pomagać!<br/>Oddaj niechciane rzeczy w zaufane ręce</h1>
+                        </div>
+                        <div className="header__deco">
+                            <img src={Deco} alt="Decoration" />
+                        </div>
+                        <div className="header__buttons">
+                            <a href="/" className="btn">Oddaj<br/>rzeczy</a>
+                            <a href="/" className="btn">Zorganizuj zbiórkę</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>

@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 export default function Nav() {
     return (
         <nav className="navigation">
             <div className="navigation__login">
                 <ul className="navigation__login-buttons">
-                    <li className="navigation__login-element"><a href="/">Zaloguj</a></li>
-                    <li className="navigation__login-element"><a href="/">Załóż konto</a></li>
+                    <li className="navigation__login-element"><Link to="/login">Zaloguj</Link></li>
+                    <li className="navigation__login-element"><Link to="/register">Załóż konto</Link></li>
                 </ul>
             </div>
             <div className="navigation__menu">
