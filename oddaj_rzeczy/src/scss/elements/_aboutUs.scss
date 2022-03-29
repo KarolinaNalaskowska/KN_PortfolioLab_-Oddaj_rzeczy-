@@ -1,0 +1,28 @@
+@import "../settings/colors";
+@import "../settings/fonts";
+
+.aboutUs {
+  background: $color-background;
+  display: flex;
+  &__content {
+    text-align: center;
+    width: 50%;
+  }
+  &__title {
+    font-size: $headers-size;
+    font-weight: 400;
+    margin: 185px 0 30px 0;
+  }
+  &__text {
+    font-size: 1.875rem;
+    line-height: 54px;
+    margin: 55px 0 40px 0;
+  }
+  &__signature {
+    left: 25%;
+    position: relative;
+  }
+  &__image {
+    width: 50%;
+  }
+}
