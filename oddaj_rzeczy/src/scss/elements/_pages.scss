@@ -1,9 +1,8 @@
-@import "../../general/variables";
+@import "../settings/colors";
+@import "../settings/fonts";
 
 .page {
-  border-bottom: solid 1px $color-grey;
-  color: $color-text;
-  font-family: $font-OpenSans;
+  border-bottom: solid 1px $color-border;
   font-weight: 300;
   margin-bottom: 35px;
   &-last {
