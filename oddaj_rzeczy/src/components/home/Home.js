@@ -4,8 +4,12 @@ import Columns from "./columns/Columns";
 export default function Home() {
     return (
         <>
-            <Header />
-            <Columns />
+            <>
+                <Header />
+            </>
+            <>
+                <Columns />
+            </>
         </>
     )
 }
