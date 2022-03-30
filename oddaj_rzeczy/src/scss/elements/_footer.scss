@@ -1,0 +1,23 @@
+@import "../settings/colors";
+@import "../settings/fonts";
+
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 48%;
+  max-width: 50%;
+  top: 570px;
+  position: relative;
+  &__text {
+    font-size: $main-fontsize;
+    line-height: 24px;
+  }
+  &__icons {
+    color: $color-black;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80px;
+    width: 100%;
+  }
+}
