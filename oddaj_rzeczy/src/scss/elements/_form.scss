@@ -1,0 +1,74 @@
+@import "../settings/colors";
+@import "../settings/fonts";
+
+.form {
+  &__title {
+    &-h2 {
+      font-size: $headers-size;
+      margin-bottom: 25px;
+    }
+    &-p {
+      font-weight: 600;
+      margin-bottom: 12px;
+      max-width: 185px;
+      text-align: left;
+    }
+  }
+  &__deco {
+    margin-bottom: 70px;
+    position: relative;
+  }
+  &__data {
+    display: flex;
+  }
+  &__inputContainer {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    margin-bottom: 40px;
+    width: 255px;
+    &:first-child {
+      margin-right: 15px;
+    }
+  }
+  &__input {
+    background: none;
+    border: none;
+    border-bottom: solid 1px $color-border;
+    &::placeholder {
+      color: $color-form;
+      font-size: $main-fontsize;
+    }
+  }
+  &__message {
+    display: flex;
+    flex-direction: column;
+  }
+  &__textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 1px $color-border;
+    height: 100px;
+    margin-bottom: 45px;
+    resize: none;
+    width: 530px;
+    &::placeholder {
+      color: $color-form;
+      font-family: $font-base;
+      font-size: $main-fontsize;
+      vertical-align: middle;
+
+    }
+  }
+  &__button {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__btn {
+    background: none;
+    border: solid 1px $color-text;
+    font-family: $font-base;
+    font-weight: 300;
+    padding: 15px 50px;
+  }
+}

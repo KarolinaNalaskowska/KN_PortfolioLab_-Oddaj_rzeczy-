@@ -1,0 +1,17 @@
+@import "../settings/colors";
+@import "../settings/fonts";
+
+.contact {
+  &__cover {
+    background: $color-white;
+    opacity: 0.2;
+    position: absolute;
+  }
+  &__form {
+    left: 1150px;
+    top: 200px;
+    max-width: 530px;
+    text-align: center;
+    position: relative;
+  }
+}
