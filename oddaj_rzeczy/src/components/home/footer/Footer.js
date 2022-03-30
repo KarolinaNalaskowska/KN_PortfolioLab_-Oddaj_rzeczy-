@@ -10,10 +10,10 @@ export default function Footer() {
             </div>
             <div className="footer__icons">
                 <div className="footer__icons-fb">
-                    <Link to="https://www.facebook.com/"><img src={Fb} alt="Facebook icon" /></Link>
+                    <a href="https://www.facebook.com/"><img src={Fb} alt="Facebook icon" /></a>
                 </div>
                 <div className="footer__icons-ig">
-                    <Link to="https://www.instagram.com/"><img src={Ig} alt="Instagram icon" /></Link>
+                    <a href="https://www.instagram.com/"><img src={Ig} alt="Instagram icon" /></a>
                 </div>
             </div>
         </div>
