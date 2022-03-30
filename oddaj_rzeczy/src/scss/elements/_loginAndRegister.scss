@@ -1,7 +1,7 @@
 @import "../settings/colors";
 @import "../settings/fonts";
 
-.login {
+.logReg {
   &__container {
     margin-right: 140px;
     text-align: center;
@@ -37,7 +37,7 @@
   }
 }
 
-.formLogin {
+.formLogReg {
   display: flex;
   justify-content: center;
   &__form {
