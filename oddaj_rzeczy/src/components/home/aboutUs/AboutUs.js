@@ -19,7 +19,7 @@ export default function AboutUs() {
                 </div>
             </div>
             <div className="aboutUs__image">
-                <img src={People} alt="People" />
+                <img src={People} alt="People" className="aboutUs__img"/>
             </div>
         </section>
     )
