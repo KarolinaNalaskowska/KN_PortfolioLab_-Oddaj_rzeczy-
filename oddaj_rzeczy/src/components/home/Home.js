@@ -3,6 +3,7 @@ import Columns from "./columns/Columns";
 import Steps from "./steps/Steps";
 import AboutUs from "./aboutUs/AboutUs";
 import Help from "./help/Help";
+import Contact from "./contact/Contact";
 
 export default function Home() {
     return (
@@ -21,6 +22,9 @@ export default function Home() {
             </>
             <>
                 <Help />
+            </>
+            <>
+                <Contact />
             </>
         </>
     )
