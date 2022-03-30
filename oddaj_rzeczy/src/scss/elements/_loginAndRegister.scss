@@ -1,3 +1,6 @@
+@import "../settings/colors";
+@import "../settings/fonts";
+
 .login {
   &__container {
     margin-right: 140px;
@@ -45,7 +48,7 @@
   }
   &__container {
     background: $color-background;
-    height: 235px;
+    height: 100%;
     max-width: 385px;
     text-align: left;
     width: 100%;
