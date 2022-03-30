@@ -1,0 +1,30 @@
+@import "../settings/colors";
+@import "../settings/fonts";
+
+.logout {
+  &__container {
+    margin-right: 140px;
+    text-align: center;
+  }
+  &__content {
+    margin-top: 125px;
+  }
+  &__title {
+    &-h2 {
+      font-size: 2.5rem;
+      margin-bottom: 35px;
+    }
+  }
+  &__deco {
+    margin-bottom: 50px;
+  }
+  &__button {
+    padding: 13px 17px;
+    &:hover {
+      border: solid 1px $color-text;
+    }
+    &:focus {
+       border: solid 1px $color-text;
+    }
+  }
+}
