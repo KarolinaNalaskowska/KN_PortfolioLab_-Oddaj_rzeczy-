@@ -1,4 +1,4 @@
-import Nav from "../home/navigation/Nav";
+import Nav from "../home/header/navigation/Nav";
 import Deco from "../../assets/Decoration.svg";
 import {Link} from "react-router-dom";
 

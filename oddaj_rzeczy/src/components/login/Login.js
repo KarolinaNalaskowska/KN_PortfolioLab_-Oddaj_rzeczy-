@@ -1,5 +1,5 @@
 import Deco from "../../assets/Decoration.svg";
-import Nav from "../home/navigation/Nav";
+import Nav from "../home/header/navigation/Nav";
 import {Link} from "react-router-dom";
 
 export default function Login() {
