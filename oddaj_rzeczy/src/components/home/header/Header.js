@@ -1,6 +1,6 @@
 import HomeHero from "../../../assets/Home-Hero-Image.jpg";
 import Deco from "../../../assets/Decoration.svg";
-import Nav from "./navigation/Nav";
+import Nav from "../navigation/Nav";
 import {Link} from "react-router-dom";
 
 export default function Header() {
