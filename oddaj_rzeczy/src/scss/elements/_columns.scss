@@ -37,6 +37,8 @@
   }
   &__text {
     color: $color-text;
+    font-family: $font-alt;
+    font-weight: 300;
     margin: 0;
   }
 }

@@ -44,7 +44,7 @@
   }
   &__button {
     background: none;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0);
     cursor: pointer;
     font-size: 1.5rem;
     padding: 25px 40px;
@@ -68,7 +68,7 @@
   }
   &-btn {
     background: none;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0);
     cursor: pointer;
     font-size: $main-fontsize;
     margin: 0 5px;

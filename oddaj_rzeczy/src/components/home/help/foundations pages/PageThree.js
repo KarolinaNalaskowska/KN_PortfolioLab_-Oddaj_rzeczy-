@@ -3,7 +3,7 @@ export default function PageThree() {
         <>
             <div className="page">
                 <div className="page__container">
-                    <h3 className="page__title">Fundacja “Nie jesteś sam“</h3>
+                    <h3 className="page__title">Fundacja “Nie jesteś sam”</h3>
                     <p className="page__needs">ubrania, jedzenie, sprzęt
                         AGD, meble, zabawki</p>
                 </div>

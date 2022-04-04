@@ -3,7 +3,7 @@ export default function PageTwo() {
         <>
             <div className="page">
                 <div className="page__container">
-                    <h3 className="page__title">Fundacja “Rack&Roll“</h3>
+                    <h3 className="page__title">Fundacja “Rack&Roll”</h3>
                     <p className="page__needs">ubrania, jedzenie, sprzęt
                         AGD, meble, zabawki</p>
                 </div>

@@ -14,6 +14,7 @@
       display: flex;
     }
     &-element {
+      border: 1px solid rgba(0, 0, 0, 0);
       cursor: pointer;
       font-family: $font-base;
       font-size: 0.875rem;
@@ -36,6 +37,7 @@
     }
 
     &-element {
+      border: 1px solid rgba(0, 0, 0, 0);
       cursor: pointer;
       display: flex;
       align-items: center;

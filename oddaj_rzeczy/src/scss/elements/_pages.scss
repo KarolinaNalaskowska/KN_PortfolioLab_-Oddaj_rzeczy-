@@ -3,6 +3,8 @@
 
 .page {
   border-bottom: solid 1px $color-border;
+  font-family: $font-alt;
+  font-size: $main-fontsize;
   font-weight: 300;
   margin-bottom: 35px;
   &-last {
@@ -17,16 +19,13 @@
   }
   &__title {
     font-size: 1.625rem;
-    font-weight: 300;
     margin: 0;
   }
   &__needs {
-    font-size: $main-fontsize;
     margin: 0;
   }
   &__text {
     text-align: left;
-    font-size: $main-fontsize;
     font-style: italic;
     margin: 0 0 30px 0;
   }
