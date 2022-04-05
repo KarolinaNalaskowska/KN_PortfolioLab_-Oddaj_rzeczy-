@@ -1,6 +1,6 @@
 import Deco from "../../assets/Decoration.svg";
 import Nav from "../home/navigation/Nav";
-import {Link} from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 
 export default function Login() {
     return (
@@ -27,8 +27,8 @@ export default function Login() {
                                 </div>
                             </div>
                             <div className="formLogReg__buttons">
-                                <Link to="/register" className="logReg__btn">Załóż konto</Link>
-                                <Link to="/" className="logReg__btn">Zaloguj się</Link>
+                                <RouterLink to="/register" className="logReg__btn">Załóż konto</RouterLink>
+                                <RouterLink to="/" className="logReg__btn">Zaloguj się</RouterLink>
                             </div>
                         </form>
                     </div>

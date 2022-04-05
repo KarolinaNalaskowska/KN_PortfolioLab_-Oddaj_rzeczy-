@@ -1,6 +1,6 @@
 import Nav from "../home/navigation/Nav";
 import Deco from "../../assets/Decoration.svg";
-import {Link} from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 
 export default function Logout() {
     return (
@@ -14,7 +14,7 @@ export default function Logout() {
                         <h2 className="logout__title-h2">Wylogowanie nastąpiło<br/>pomyślnie!</h2>
                         <img src={Deco} alt="Decoration" className="logout__deco"/>
                     </div>
-                    <Link to="/" className="logout__button">Strona główna</Link>
+                    <RouterLink to="/" className="logout__button">Strona główna</RouterLink>
                 </div>
             </div>
         </section>

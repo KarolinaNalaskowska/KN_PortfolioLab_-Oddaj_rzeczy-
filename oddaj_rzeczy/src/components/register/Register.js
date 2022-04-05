@@ -1,6 +1,6 @@
 import Nav from "../home/navigation/Nav";
 import Deco from "../../assets/Decoration.svg";
-import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 
 export default function Register() {
     return (
@@ -38,8 +38,8 @@ export default function Register() {
                                 </div>
                             </div>
                             <div className="formLogReg__buttons">
-                                <Link to="/login" className="logReg__btn">Zaloguj się</Link>
-                                <Link to="/" className="logReg__btn">Załóż konto</Link>
+                                <RouterLink to="/login" className="logReg__btn">Zaloguj się</RouterLink>
+                                <RouterLink to="/" className="logReg__btn">Załóż konto</RouterLink>
                             </div>
                         </form>
                     </div>
