@@ -17,7 +17,7 @@ export default function Help() {
     }
 
     return (
-        <section className="help">
+        <section className="help" id="helpEl">
             <div className="help__container">
                 <div className="help__header">
                     <div className="help__title">

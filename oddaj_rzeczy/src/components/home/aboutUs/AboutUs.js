@@ -4,7 +4,7 @@ import Signature from "../../../assets/Signature.svg";
 
 export default function AboutUs() {
     return (
-        <section className="aboutUs">
+        <section className="aboutUs" id="about">
             <div className="aboutUs__content">
                 <h2 className="aboutUs__title">O nas</h2>
                 <img src={Deco} alt="Decoration" />

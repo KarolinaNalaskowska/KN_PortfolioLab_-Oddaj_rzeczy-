@@ -19,12 +19,7 @@
     margin-bottom: 50px;
   }
   &__button {
+    border: solid 1px $color-text;
     padding: 13px 17px;
-    &:hover {
-      border: solid 1px $color-text;
-    }
-    &:focus {
-       border: solid 1px $color-text;
-    }
   }
 }

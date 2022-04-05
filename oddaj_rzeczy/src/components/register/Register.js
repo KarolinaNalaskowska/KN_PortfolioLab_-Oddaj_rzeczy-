@@ -1,6 +1,6 @@
 import Nav from "../home/navigation/Nav";
 import Deco from "../../assets/Decoration.svg";
-import {Link} from "react-router-dom";
+import { Link } from "react-scroll";
 
 export default function Register() {
     return (
@@ -23,11 +23,18 @@ export default function Register() {
                                 </div>
                                 <div className="formLogReg__inputs">
                                     <p className="formLogReg__p">Hasło</p>
-                                    <input className="formLogReg__input" type="password" />
+                                    <input
+                                        className="formLogReg__input"
+                                        type="password"
+                                        minLength="6" />
                                 </div>
                                 <div className="formLogReg__inputs">
                                     <p className="formLogReg__p">Powtórz hasło</p>
-                                    <input className="formLogReg__input" type="password" />
+                                    <input
+                                        className="formLogReg__input"
+                                        type="password"
+                                        minLength="6"
+                                        />
                                 </div>
                             </div>
                             <div className="formLogReg__buttons">

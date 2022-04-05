@@ -4,9 +4,12 @@
 .navigation {
   display: flex;
   flex-direction: column;
-  margin-top: 35px;
+  padding-top: 35px;
   max-height: 95px;
   max-width: 685px;
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
   &__login {
     display: flex;
     justify-content: flex-end;

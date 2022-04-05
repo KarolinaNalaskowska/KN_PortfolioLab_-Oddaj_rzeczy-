@@ -1,6 +1,6 @@
 export default function Columns() {
     return (
-        <section className="columns">
+        <section className="columns" id="fourColumns">
             <div className="columns__container">
                 <div className="columns__column">
                     <h2 className="columns__number">10</h2>

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Element } from "react-scroll";
 
 export default function Nav() {
     return (
@@ -12,10 +12,10 @@ export default function Nav() {
             <div className="navigation__menu">
                 <ul className="navigation__menu-main">
                     <li className="navigation__menu-element"><Link to="/">Start</Link></li>
-                    <li className="navigation__menu-element"><a href="/">O co chodzi?</a></li>
-                    <li className="navigation__menu-element"><a href="/">O nas</a></li>
-                    <li className="navigation__menu-element"><a href="/">Fundacja i organizacje</a></li>
-                    <li className="navigation__menu-element"><a href="/">Kontakt</a></li>
+                    <li className="navigation__menu-element"><Link to="fourColumns" smooth={true} offset={50} duration={500}>O co chodzi?</Link></li>
+                    <li className="navigation__menu-element"><Link to="about" smooth={true} offset={50} duration={500}>O nas</Link></li>
+                    <li className="navigation__menu-element"><Link to="helpEl" smooth={true} offset={50} duration={500}>Fundacja i organizacje</Link></li>
+                    <li className="navigation__menu-element"><Link to="contactUs" smooth={true} offset={50} duration={500}>Kontakt</Link></li>
                 </ul>
             </div>
         </nav>
