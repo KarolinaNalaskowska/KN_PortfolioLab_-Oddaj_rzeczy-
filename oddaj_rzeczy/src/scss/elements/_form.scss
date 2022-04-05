@@ -14,9 +14,30 @@
       text-align: left;
     }
   }
+  &__error {
+    color: red;
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding-top: 10px;
+    text-align: left;
+    opacity: 1;
+    &-non {
+      opacity: 0;
+    }
+  }
   &__deco {
     margin-bottom: 70px;
     position: relative;
+  }
+  &__visible {
+    color: #0d9b0d;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: -40px;
+    opacity: 1;
+  }
+  &__invisible {
+    opacity: 0;
   }
   &__data {
     display: flex;
@@ -39,6 +60,15 @@
       color: $color-form;
       font-size: $main-fontsize;
     }
+    &-error {
+      background: none;
+      border: none;
+      border-bottom: solid 1px red;
+      &::placeholder {
+        color: $color-form;
+        font-size: $main-fontsize;
+      }
+    }
   }
   &__message {
     display: flex;
@@ -49,7 +79,6 @@
     border: none;
     border-bottom: solid 1px $color-border;
     height: 100px;
-    margin-bottom: 45px;
     resize: none;
     width: 530px;
     &::placeholder {
@@ -57,12 +86,26 @@
       font-family: $font-base;
       font-size: $main-fontsize;
       vertical-align: middle;
-
+    }
+    &-error {
+      background: none;
+      border: none;
+      border-bottom: solid 1px red;
+      height: 100px;
+      resize: none;
+      width: 530px;
+      &::placeholder {
+        color: $color-form;
+        font-family: $font-base;
+        font-size: $main-fontsize;
+        vertical-align: middle;
+      }
     }
   }
   &__button {
     display: flex;
     justify-content: flex-end;
+    margin-top: 45px;
   }
   &__btn {
     background: none;
